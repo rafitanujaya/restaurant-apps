@@ -32,7 +32,7 @@ const createRestoDetailTemplate = (resto) => `
       ${resto.name}
     </h1>
     <img class="lazyload" data-src="${
-      CONFIG.BASE_IMAGE_URL + resto.pictureId
+      CONFIG.BASE_IMAGE_URL_MEDIUM + resto.pictureId
     }" alt="${resto.name}" />
 
     <div class="info">
